@@ -4,6 +4,10 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     text-decoration: none !important;
 }
 
+.features-wrap {
+    width: 100%;
+}
+
 .feature {
     margin-bottom: 7px;
     border: 2px solid #222424;
@@ -27,7 +31,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .features-inner.section-inner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
