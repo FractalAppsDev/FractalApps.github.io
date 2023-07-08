@@ -52,7 +52,8 @@ section.features.section {
 }
 
 a.tos-anchor-text {
-    font-size: 14px;
-    text-decoration: none;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    margin-left: auto;
 }
